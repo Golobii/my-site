@@ -1,0 +1,72 @@
+:root {
+    --background-collor: #101010;
+    --card-trans: rgb(0, 0, 0, 0.6);
+}
+
+body {
+    color: white;
+    background-color: var(--background-collor);
+}
+
+.text-section {
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.cmp-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 94vh;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    color: white;
+    width: 40%;
+    height: 65%;
+    padding: 2vw;
+    border-radius: 10px;
+    background-color: var(--card-trans);
+}
+
+@media screen and (max-width: 950px) {
+    .centered {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    .cmp-img {
+        position: relative;
+    }
+    .navbar {
+        position: absolute;
+        width: 100%;
+        max-height: 210px;
+        z-index: 10;
+    }
+}  
+
+.card {
+    color: white;
+    background-color: var(--card-trans);
+    height: 30rem;
+}
+
+.card a {
+    position: absolute;
+    bottom: 2%;
+}
+
+.card img {
+    height: 50%;
+    object-fit: cover;
+}
+
+.centered h1 {
+    font-size: 6vw;
+}
