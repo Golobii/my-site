@@ -33,6 +33,10 @@ body {
     background-color: var(--card-trans);
 }
 
+.centered .btn {
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 950px) {
     .centered {
         top: 50%;
@@ -54,7 +58,7 @@ body {
 .card {
     color: white;
     background-color: var(--card-trans);
-    height: 30rem;
+    height: 32rem;
 }
 
 .card a {
